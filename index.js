@@ -1,6 +1,20 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const checkWord=Array.from(word)
+  let lastLetter=checkWord.length-1
+  for(let i=0;i<checkWord.length;i++){
+    if(checkWord[i]===checkWord[lastLetter]){
+      return true
+    }
+    else{
+      return false
+      
+    }
+    lastLetter--
+  }
+
 }
+console.log(isPalindrome('racecar'))
 
 /* 
   Add your pseudocode here
