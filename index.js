@@ -14,10 +14,12 @@ function isPalindrome(word) {
   }
 
 }
-console.log(isPalindrome('racecar'))
 
 /* 
   Add your pseudocode here
+  The function should be comparing the letters 
+  from the beginning, being compared to the last
+  and so forth
 */
 
 /*
